@@ -5,10 +5,7 @@ export function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth", // تقدر تشيلها إذا بدك بدون أنيميشن
-    });
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   return null;
