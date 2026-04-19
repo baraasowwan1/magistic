@@ -3,7 +3,7 @@
   {/* 🔥 اللوجو */}
   <a href="/" className="flex items-center">
     <img
-      src="https://your-link.com/logo.png"
+      src="https://im.ge/i/eBulqY"
       alt="logo"
       className="h-10 w-auto"
     />
