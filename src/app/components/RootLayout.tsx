@@ -7,7 +7,7 @@ export function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, [pathname]);
 
   return null;
@@ -34,17 +34,12 @@ export function RootLayout() {
   return (
     <div className="min-h-screen bg-white" dir="rtl">
 
-      {/* 🔥 Scroll Fix */}
-      <ScrollToTop />
-
       {/* Header */}
       <header className="bg-black text-white shadow-lg sticky top-0 z-50 border-b-2 border-yellow-600">
-
         <div className="max-w-6xl mx-auto px-8 py-4">
-
           <div className="flex items-center justify-between">
 
-            {/* 🔥 Logo */}
+            {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
               <img
                 src="/caslogo.png"
@@ -116,6 +111,7 @@ export function RootLayout() {
 
       {/* Main Content */}
       <main>
+        <ScrollToTop />
         <Outlet />
       </main>
 
