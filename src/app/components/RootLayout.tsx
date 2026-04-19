@@ -28,11 +28,11 @@ export function RootLayout() {
         <div className="max-w-6xl mx-auto px-8 py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-3">
-              <img
-                src="/caslogo.png"
-                alt="Majestic Logo"
-                className="h-12 w-auto"
-              />
+<img
+  src={window.location.origin + "/caslogo.png"}
+  alt="Majestic Logo"
+  className="h-12 w-auto"
+/>
               <div>
                 <h1 className="text-2xl font-bold text-yellow-500">MAJESTIC</h1>
                 <p className="text-sm text-yellow-600">INTERIOR DESIGN</p>
