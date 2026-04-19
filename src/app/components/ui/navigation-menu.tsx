@@ -1,27 +1,38 @@
-<NavigationMenu>
+import {
+  NavigationMenu,
+  NavigationMenuList,
+  NavigationMenuItem,
+  NavigationMenuTrigger,
+} from "./NavigationMenu";
 
-  {/* 🔥 اللوجو */}
-  <a href="/" className="flex items-center">
-    <img
-      src="https://im.ge/i/eBulqY"
-      alt="logo"
-      className="h-10 w-auto"
-    />
-  </a>
+export default function Header() {
+  return (
+    <NavigationMenu>
 
-  {/* 🔥 القائمة */}
-  <NavigationMenuList>
-    <NavigationMenuItem>
-      <NavigationMenuTrigger>الرئيسية</NavigationMenuTrigger>
-    </NavigationMenuItem>
+      {/* 🔥 الشعار */}
+      <a href="/" className="flex items-center">
+        <img
+          src="https://i.im.ge/eBulqY/caslogo.png"
+          alt="logo"
+          className="h-10 w-auto"
+        />
+      </a>
 
-    <NavigationMenuItem>
-      <NavigationMenuTrigger>الخدمات</NavigationMenuTrigger>
-    </NavigationMenuItem>
+      {/* 🔥 القائمة */}
+      <NavigationMenuList>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>الرئيسية</NavigationMenuTrigger>
+        </NavigationMenuItem>
 
-    <NavigationMenuItem>
-      <NavigationMenuTrigger>اتصل بنا</NavigationMenuTrigger>
-    </NavigationMenuItem>
-  </NavigationMenuList>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>الخدمات</NavigationMenuTrigger>
+        </NavigationMenuItem>
 
-</NavigationMenu>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>اتصل بنا</NavigationMenuTrigger>
+        </NavigationMenuItem>
+      </NavigationMenuList>
+
+    </NavigationMenu>
+  );
+}
