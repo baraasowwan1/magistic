@@ -26,11 +26,11 @@ export function Contact() {
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">اتصل بنا</h3>
               <a
-                href="tel:+962799999999"
+                href="tel:+962799140717"
                 className="text-xl text-yellow-700 hover:text-yellow-800 transition-colors block mb-2 font-bold"
                 dir="ltr"
               >
-                +962 79 999 9999
+                +962 79 914 0717
               </a>
             </div>
 
@@ -56,7 +56,7 @@ export function Contact() {
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">موقعنا</h3>
               <p className="text-gray-700">
-                المملكة الأردنية الهاشمية
+                دوار الكيلو ، شارع مكه عماره 136 , الطابق الثالت
                 <br />
                 عمان
               </p>
@@ -68,7 +68,7 @@ export function Contact() {
             <h3 className="text-3xl font-bold text-center mb-8 text-gray-900">تابعنا على مواقع التواصل</h3>
             <div className="flex justify-center gap-6">
               <a
-                href="https://facebook.com/majestic.design.jo"
+                href="https://www.facebook.com/profile.php?id=100075798925848"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center gap-3 bg-blue-600 text-white px-8 py-6 rounded-xl hover:bg-blue-700 transition-all hover:scale-105 shadow-lg"
@@ -97,7 +97,7 @@ export function Contact() {
           <div className="bg-white p-4 rounded-xl shadow-lg max-w-5xl mx-auto">
             <div className="relative w-full h-[500px] rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.9845873144545!2d35.8558!3d31.9454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca1c726ab1b95%3A0xd06912ff6db41111!2sAmman%2C%20Jordan!5e0!3m2!1sen!2s!4v1234567890"
+                src="https://www.google.com/maps/search/%D8%AF%D9%88%D8%A7%D8%B1+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+%D8%8C+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D9%83%D9%87+%D8%B9%D9%85%D8%A7%D8%B1%D9%87+136+,+%D8%A7%D9%84%D8%B7%D8%A7%D8%A8%D9%82+%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AA%E2%80%AD/@31.9756487,35.8655968,17.95z?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -119,7 +119,7 @@ export function Contact() {
             <div className="space-y-4">
               <div className="flex justify-between items-center pb-4 border-b border-yellow-600">
                 <span className="text-xl">السبت - الخميس</span>
-                <span className="text-xl font-bold text-yellow-500">9:00 ص - 6:00 م</span>
+                <span className="text-xl font-bold text-yellow-500">8:00 ص - 8:00 م</span>
               </div>
               <div className="flex justify-between items-center pb-4 border-b border-yellow-600">
                 <span className="text-xl">الجمعة</span>
@@ -142,14 +142,14 @@ export function Contact() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="tel:+962799999999"
+              href="tel:+962799140717"
               className="bg-yellow-600 text-black px-10 py-4 rounded-lg font-bold hover:bg-yellow-500 transition-colors inline-flex items-center gap-2"
             >
               <Phone size={20} />
               اتصل الآن
             </a>
             <a
-              href="https://wa.me/962799999999"
+              href="https://wa.me/962799140717"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 text-white px-10 py-4 rounded-lg font-bold hover:bg-green-700 transition-colors"
