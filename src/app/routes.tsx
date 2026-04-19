@@ -8,12 +8,12 @@ import { Contact } from "./components/pages/Contact";
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: RootLayout,
+    element: <RootLayout />,
     children: [
-      { index: true, Component: Home },
-      { path: "about", Component: About },
-      { path: "portfolio", Component: Portfolio },
-      { path: "contact", Component: Contact },
+      { index: true, element: <Home /> },
+      { path: "about", element: <About /> },
+      { path: "portfolio", element: <Portfolio /> },
+      { path: "contact", element: <Contact /> },
     ],
   },
 ]);
