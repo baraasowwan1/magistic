@@ -5,7 +5,7 @@ export function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false);
 
   // WhatsApp number and default message
-  const phoneNumber = "962799999999"; // Your WhatsApp number
+  const phoneNumber = "962799140717"; // Your WhatsApp number
   const message = "مرحباً، أود الاستفسار عن خدمات Majestic Interior Design";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
